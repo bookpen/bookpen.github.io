@@ -15,5 +15,16 @@
 	<link rel="stylesheet" href="{{ '/style/css/iconfont/iconfont.css' | prepend: site.baseurl }}">
 
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
-      <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+    <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+        <!-- bokeh scripts -->
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.2.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.2.min.js"></script>
+    <!--markdown公式-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+
 </head>
